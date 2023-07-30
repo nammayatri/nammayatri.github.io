@@ -1,4 +1,3 @@
 # Nammayatri Notes
 
-See [[Hello
-]]
+See [[Hello]]
