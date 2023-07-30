@@ -1,15 +1,15 @@
 # For documentation and available settings, see
-# https://github.com/srid/emanote/blob/master/default/index.yaml
+# https://github.com/srid/emanote/blob/master/emanote/default/index.yaml
 
 page:
-  siteTitle: Emanote Template
+  siteTitle: Nammayatri Notes
 
 template:
-  theme: red
+  theme: yellow
 
   # You can add your own variables here, like editBaseUrl.
   # See after-note.tpl to see where editBaseUrl gets used.
-  editBaseUrl: https://github.com/srid/emanote-template/edit/master
+  editBaseUrl: https://github.com/nammayatri/nammayatri.github.io/edit/main
 
   # Uncomment this to get neuron-style pages
   # name: /templates/layouts/note
