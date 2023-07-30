@@ -2,6 +2,10 @@
 
 Shared notes by the Nammayatri team.
 
+## Adding or Editing Notes
+
+You can use VSCode or, better, [Obsidian](https://obsidian.md/) to modify this notebook. Run `nix run` locally (see below) for a live preview.
+
 ## Running using Nix
 
 To start the live server using Nix:
