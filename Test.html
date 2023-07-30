@@ -5,31 +5,24 @@
   <meta charset='UTF-8' />
   <meta name='viewport' content='width=device-width, initial-scale=1' />
   <title>
-    Slug – Emanote Template
+    Test – Nammayatri Notes
   </title>
   
     
-      <meta property='og:description' content='By default the filesystem path is used to determine the note URL. You can override this using the slug frontmatter metadata.' />
-      <meta property='og:site_name' content='Emanote Template' />
+      <meta property='og:description' content />
+      <meta property='og:site_name' content='Nammayatri Notes' />
       <meta property='og:image' content />
       <meta property='og:type' content='website' />
-      <meta property='og:title' content='Slug' />
+      <meta property='og:title' content='Test' />
     
     
       <base href='/emanote-template/' />
       <link href='favicon.svg' rel='icon' />
     
-    <!-- highlight.js -->
-<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/hybrid.min.css' />
-<script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js'></script>
-<!-- Include languages that Emanote itself uses -->
-<script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/haskell.min.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/languages/nix.min.js'></script>
-<script>hljs.highlightAll();</script>
-
+    <meta name='generator' content='Emanote' />
 
   
-  <link href='tailwind.css?instanceId=713eb06d-05b6-4439-ab04-1a68aa0a5121' rel='stylesheet' type='text/css' />
+  <link href='tailwind.css?instanceId=136f77e1-7a17-4770-9d28-11e9955ca5bc' rel='stylesheet' type='text/css' />
 
   <style>
     /* Heist error element */
@@ -254,16 +247,7 @@
           
             <li class='inline-flex items-center'>
               <a class='px-1 font-bold' href=''>
-                Emanote Template
-              </a>
-              <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
-                <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
-              </svg>
-            </li>
-          
-            <li class='inline-flex items-center'>
-              <a class='px-1 font-bold' href='Tutorials.html'>
-                Tutorials
+                Nammayatri Notes
               </a>
               <svg fill='currentColor' viewBox='0 0 20 20' class='w-auto h-5 text-gray-400'>
                 <path fill-rule='evenodd' d='M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z' clip-rule='evenodd'></path>
@@ -274,12 +258,12 @@
       </ul>
     </div>
     <button class='inline px-2 py-1 bg-gray-50 outline-none cursor-pointer focus:outline-none' title='Search (Ctrl+K)' type='button' onclick='window.emanote.stork.toggleSearch()'>
-      <svg xmlns='http://www.w3.org/2000/svg' style='width: 1rem;' class='hover:text-red-700' f
+      <svg xmlns='http://www.w3.org/2000/svg' style='width: 1rem;' class='hover:text-yellow-700' f
  fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'>
   <path stroke-linecap='round' stroke-linejoin='round' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'></path>
 </svg>
     </button>
-    <button class='inline px-2 py-1 text-white bg-red-600 outline-none cursor-pointer focus:outline-none' title='Toggle sidebar' type='button' onclick="toggleHidden('sidebar')">
+    <button class='inline px-2 py-1 text-white bg-yellow-600 outline-none cursor-pointer focus:outline-none' title='Toggle sidebar' type='button' onclick="toggleHidden('sidebar')">
       <svg xmlns='http://www.w3.org/2000/svg' class='w-4' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 6h16M4 12h16M4 18h16'></path>
       </svg>
@@ -298,19 +282,19 @@
           <div class='px-2 py-2 text-gray-800'>
             <div id='indexing-links' class='flex flex-row float-right p-2 space-x-2 text-gray-500'>
               <a href='-/tags.html' title='View tags'>
-                <svg style='width: 1rem;' class='hover:text-red-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <svg style='width: 1rem;' class='hover:text-yellow-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                   <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
                   </path>
                 </svg>
               </a>
               <a href='-/all.html' title='Expand full tree'>
-                <svg style='width: 1rem;' class='hover:text-red-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <svg style='width: 1rem;' class='hover:text-yellow-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                   <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4'>
                   </path>
                 </svg>
               </a>
               <a title='Search (Ctrl+K)' class='cursor-pointer' onclick='window.emanote.stork.toggleSearch()'>
-                <svg xmlns='http://www.w3.org/2000/svg' style='width: 1rem;' class='hover:text-red-700' f
+                <svg xmlns='http://www.w3.org/2000/svg' style='width: 1rem;' class='hover:text-yellow-700' f
  fill='none' viewBox='0 0 24 24' stroke='currentColor' stroke-width='2'>
   <path stroke-linecap='round' stroke-linejoin='round' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z'></path>
 </svg>
@@ -339,6 +323,38 @@
             
               <!-- Variable bindings for this tree-->
   
+  
+
+
+  
+  
+
+<!-- Rendering of this tree -->
+<div class='pl-2'>
+  <!-- Node's rootLabel-->
+  <div class='flex items-center my-2 space-x-2 justify-left'>
+    
+    
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
+        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
+        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
+      </svg>
+      
+  
+    <a class='font-bold text-yellow-600 hover:underline truncate' title='Test' href='Test.html'>
+      Test
+    </a>
+    
+      
+  </div>
+
+  <!-- Node's children forest, displayed only on active trees
+    TODO: Use <details> to toggle visibility?
+  -->
+  
+    
+      <!-- Variable bindings for this tree-->
+  
     
       
     
@@ -361,79 +377,8 @@
       </svg>
     
   
-    <a class='hover:underline truncate' title='GitHub Pages' href='github-pages.html'>
-      GitHub Pages
-    </a>
-    
-      
-  </div>
-
-  <!-- Node's children forest, displayed only on active trees
-    TODO: Use <details> to toggle visibility?
-  -->
-  
-    
-  
-</div>
-            
-              <!-- Variable bindings for this tree-->
-  
-    
-      
-      
-    
-
-
-
-  
-  
-
-<!-- Rendering of this tree -->
-<div class='pl-2'>
-  <!-- Node's rootLabel-->
-  <div class='flex items-center my-2 space-x-2 justify-left'>
-    
-    
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-4 h-4 flex-shrink-0 inline text-gray-700' viewBox='0 0 20 20' fill='currentColor'>
-        <path fill-rule='evenodd' d='M2 6a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1H8a3 3 0 00-3 3v1.5a1.5 1.5 0 01-3 0V6z' clip-rule='evenodd'></path>
-        <path d='M6 12a2 2 0 012-2h8a2 2 0 012 2v2a2 2 0 01-2 2H2h2a2 2 0 002-2v-2z'></path>
-      </svg>
-      
-  
-    <a class='font-bold hover:underline truncate' title='Tutorials' href='Tutorials.html'>
-      Tutorials
-    </a>
-    
-      
-  </div>
-
-  <!-- Node's children forest, displayed only on active trees
-    TODO: Use <details> to toggle visibility?
-  -->
-  
-    
-      <!-- Variable bindings for this tree-->
-  
-  
-
-
-  
-
-
-<!-- Rendering of this tree -->
-<div class='pl-2'>
-  <!-- Node's rootLabel-->
-  <div class='flex items-center my-2 space-x-2 justify-left'>
-    
-    
-      <svg class='w-4 h-4 flex-shrink-0 inline' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-        <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'>
-        </path>
-      </svg>
-      
-  
-    <a class='font-bold text-red-600 hover:underline truncate' title='Slug' href='Tutorials/Slug.html'>
-      Slug
+    <a class='hover:underline truncate' title='Hello' href='hello.html'>
+      Hello
     </a>
     
       
@@ -457,49 +402,44 @@
         <!-- Main body column -->
         <div class='flex-1 w-full overflow-x-auto bg-white'>
           <main class='px-4 py-4'>
-            <h1 class='flex items-end justify-center mb-4 p-3 bg-red-100 text-5xl font-extrabold text-black rounded'>
+            <h1 class='flex items-end justify-center mb-4 p-3 bg-yellow-100 text-5xl font-extrabold text-black rounded'>
   <a class='z-40 tracking-tighter '>
-    Slug
+    Test
   </a>
 </h1>
             <article class='overflow-auto'>
   <!-- What goes in this file will appear on top of note body-->
-  
-    <p class='mb-3'>
-      By default the filesystem path is used to determine the note URL. You can override this using the <code class='py-0.5 px-0.5 bg-gray-100'>slug</code> frontmatter metadata.
-    </p>
-  <h2 id='overriding-the-url' class='mt-6 mb-4 text-4xl font-bold text-gray-700 border-b-2'>Overriding the URL</h2>
-    <p class='mb-3'>
-      For example,
-    </p>
-  
-    <ul class='my-3 ml-6 space-y-1 list-disc'>
+  <nav>
+  <div class='mb-8'>
+    <header data-nosnippet class='pb-2 mb-2 font-semibold text-gray-600'>
+      Pages matching path './*'
+    </header>
+    <ul>
       
         <li>
-          Source: <a href='https://raw.githubusercontent.com/srid/srid/master/free/Actualism%20Method.md' class='text-red-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>https://raw.githubusercontent.com/srid/srid/master/free/Actualism%20Method.md</a>
-        </li>
-      
-        <li>
-          Rendered: <a href='https://srid.ca/method' class='text-red-600 hover:underline' data-linkicon='external' target='_blank' rel='noopener'>https://srid.ca/method</a>
+          <div class='flex flex-wrap my-2'>
+            
+              <span data-nosnippet class='mr-2 text-right text-gray-600'>
+              </span>
+            
+            <a class='flex-1 text-yellow-600 mavenLinkBold border-l-2 pl-2 hover:underline' href='hello.html'>
+              Hello
+            </a>
+          </div>
         </li>
       
     </ul>
-  
+  </div>
+</nav><div class='text-gray-400 border-t-2 inline-block pt-0.5'>
     <p class='mb-3'>
-      Notice that in the source, we see:
+      Note: To override the auto-generated content here, create a file named one of: <span class='font-mono text-sm'>Test.md, Test.org</span>
     </p>
-  <div class='py-0.5 mb-3 text-sm'><pre><code class='yaml language-yaml'>---
-slug: method
----</code></pre></div>
-    <p class='mb-3'>
-      This makes Emantoe use <code class='py-0.5 px-0.5 bg-gray-100'>/method</code> as the URL path for this note. Without this, by default, Emanote would use <code class='py-0.5 px-0.5 bg-gray-100'>/free/Actualism%20Method</code>.
-    </p>
-  
+  </div>
 
   <div class='flex items-center justify-center mt-2'>
   
     
-      <a class='text-gray-300 hover:text-red-600 text-sm' title='Edit this page on GitHub' href='https://github.com/srid/emanote-template/edit/master/Tutorials/Slug.md'>
+      <a class='text-gray-300 hover:text-yellow-600 text-sm' title='Edit this page on GitHub' href='https://github.com/nammayatri/nammayatri.github.io/edit/main/Test.md'>
         <svg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
           <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z'></path>
         </svg>
@@ -525,14 +465,14 @@ slug: method
   
   <div>
     <a href='' title='Go to Home page'>
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6 hover:text-red-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6 hover:text-yellow-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6'></path>
       </svg>
     </a>
   </div>
   <div>
     <a href='-/all.html' title='View Index'>
-      <svg class='w-6 h-6 hover:text-red-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-6 h-6 hover:text-yellow-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M4 8V4m0 0h4M4 4l5 5m11-1V4m0 0h-4m4 0l-5 5M4 16v4m0 0h4m-4 0l5-5m11 5l-5-5m5 5v-4m0 4h-4'>
         </path>
       </svg>
@@ -540,12 +480,12 @@ slug: method
   </div>
   <div>
     <a href='https://emanote.srid.ca' target='_blank' title='Generated by Emanote 1.0.3.12'>
-      <img class='w-6 h-6 hover:text-red-700' src='_emanote-static/emanote-logo.svg' />
+      <img class='w-6 h-6 hover:text-yellow-700' src='_emanote-static/emanote-logo.svg' />
     </a>
   </div>
   <div>
     <a href='-/tags.html' title='View tags'>
-      <svg class='w-6 h-6 hover:text-red-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+      <svg class='w-6 h-6 hover:text-yellow-700' fill='none' stroke='currentColor' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z'>
         </path>
       </svg>
@@ -553,7 +493,7 @@ slug: method
   </div>
   <div>
     <a href='-/tasks.html' title='View tasks'>
-      <svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6 hover:text-red-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
+      <svg xmlns='http://www.w3.org/2000/svg' class='w-6 h-6 hover:text-yellow-700' fill='none' viewBox='0 0 24 24' stroke='currentColor'>
         <path stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'></path>
       </svg>
     </a>
